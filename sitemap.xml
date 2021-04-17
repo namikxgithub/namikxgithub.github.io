@@ -7,11 +7,19 @@
   </url>
   
   <url>
-    <loc>https://namikxgithub.github.io/</loc>
+    <loc>https://namikxgithub.github.io/elements/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namikxgithub.github.io/posts/</loc>
   </url>
   
   <url>
     <loc>https://namikxgithub.github.io/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>https://namikxgithub.github.io/</loc>
   </url>
   
 </urlset>
