@@ -12,25 +12,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/about_me/</guid>
-      <description>Hi there, I am Naman Malik - A Robotics and Electronics enthusiast. I am electronics student from New Delhi whith Keen interest in embedded system, IOT and robotics and currently developing a taste in computer vision. Driven by the idea of project based learing and love to tinker with new tech. Always ready to get my dirty with new projects be it software or hardware.</description>
-    </item>
-    
-    <item>
-      <title>post1</title>
-      <link>https://namikxgithub.github.io/posts/post1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://namikxgithub.github.io/posts/post1/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>post2</title>
-      <link>https://namikxgithub.github.io/posts/post2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://namikxgithub.github.io/posts/post2/</guid>
-      <description></description>
+      <description>Hi there,
+Well here is some stuff you might wanna know about me&amp;hellip;
+So, My name is Naman Malik, a Part-time electronics student and a Full-time Maker. Though I am an Electronics student from profession but a Robotics Enthusiast by heart. I have my Keen interests in Robotics, ROS, IOT and developing a taste in Computer Vision. Driven by the idea of Project-based Learing, Eager to tinker with and learn about new Tech and always ready to get my hand dirty on new projects - be it Hardware or Software</description>
     </item>
     
     <item>
@@ -40,6 +24,16 @@
       
       <guid>https://namikxgithub.github.io/projects/</guid>
       <description>Comming Soon</description>
+    </item>
+    
+    <item>
+      <title>What&#39;s New</title>
+      <link>https://namikxgithub.github.io/whats_new/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/whats_new/</guid>
+      <description>6-DOF Servo Arm I, Arduino A Maker&amp;rsquo;s Coffee Table Eyantra Finals 2020 Highlights  I, Arduino About Arduino Day is a worldwide birthday celebration of Arduino – organized directly by the community, or by the Arduino team. It brings people together to share their experiences and learn more about the open-source platform.
+So this year, I coordinated with HatchnHack organized the I, Arduino event to acknowledge the open-source Arduino community who encouraged the people to make countless exciting projects over the years.</description>
     </item>
     
   </channel>
