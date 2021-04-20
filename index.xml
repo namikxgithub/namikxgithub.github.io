@@ -33,7 +33,7 @@ Check out What&amp;rsquo;s New for updates.</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/whats_new/</guid>
-      <description>I, Arduino A Maker&amp;rsquo;s Coffee Table Eyantra Finals 6-DOF Servo Arm HNH Robo Kit EYRC-BOT in Action 2020 Highlights  6-DOF Servo Arm Alright, We have got our Servo Arm fixed.
+      <description>I, Arduino A Maker&amp;rsquo;s Coffee Table Eyantra Finals 6 DOF Servo Arm HNH Robo Kit EYRC-BOT in Action 2020 Highlights  6 DOF Servo Arm Alright, We have got our Servo Arm fixed.
 Last time we used only arduino to control the arm for pre-loaded movement. Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a Pose provided by us.</description>
     </item>
     
