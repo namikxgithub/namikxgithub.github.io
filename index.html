@@ -97,7 +97,8 @@ and always ready to get my hand dirty on new projects - be it <em>Hardware</em> 
                                 <article id="projects">
                                     <h2 class="major">Projects</h2>
                                     <span class="image main"><img src="" alt="" /></span>
-                                    <p>Comming Soon</p>
+                                    <p>Sorry, The projects menu is under maintanance&hellip;.</p>
+<p>Check out What&rsquo;s New for updates.</p>
 
                                 </article>
                             
@@ -109,12 +110,29 @@ and always ready to get my hand dirty on new projects - be it <em>Hardware</em> 
                                     <h2 class="major">What&#39;s New</h2>
                                     <span class="image main"><img src="" alt="" /></span>
                                     <ul>
-<li><a href="6dof-servo-arm">6-DOF Servo Arm</a></li>
 <li><a href="#i-arduino">I, Arduino</a></li>
 <li><a href="#a-makers-coffee-table">A Maker&rsquo;s Coffee Table</a></li>
 <li><a href="eyantra-finals">Eyantra Finals</a></li>
+<li><a href="6dof-servo-arm">6-DOF Servo Arm</a></li>
+<li><a href="hnh-robo-kit">HNH Robo Kit</a></li>
+<li><a href="eyrc-bot-in-action">EYRC-BOT in Action</a></li>
 <li><a href="#2020">2020 Highlights</a></li>
 </ul>
+<h2 id="6-dof-servo-arm">6-DOF Servo Arm</h2>
+<p>Alright, We have got our Servo Arm fixed.</p>
+<p>Last time we used only arduino to control the arm for pre-loaded movement.
+Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment and we would have create a arm skeleton to visualize it in the Rviz.  <br>
+The main issue is with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA to 1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.<br>
+Well its time to all &ldquo;<strong>Tony Stark Mode</strong>&rdquo; and maybe in future we can add this to mobile base and it would a full fleged robot. Stay tuned for more updates.</p>
+<hr>
+<h2 id="hnh-robo-kit">HNH Robo Kit</h2>
+<p>After making numerous Arduino Bots, I have realized that to even make simple bots a considrable amount of time is consumed in tasks like making a chassis from scratch, connect to actuators, motor drivers, sernsors etc. and wire management which can be quite frustrating and difficult a begginer.  <br>
+So I taked to the founder of HatchNHack makerspace and we decided to collaborate to develop an Arduino based robotic kit so that robotics will not only be restriced to Pros.</p>
+<h3 id="scematic-sneak-peak">Scematic (Sneak Peak)</h3>
+<p>Well this is just a demo. There is stil a lot of work to be done.
+The project scematic will be open to all so that people can innovate as their will.
+The idea is to provide people with a main controller with all the necessary equipment on-board and additional connectors to add other stuff line sensors, acutuators etc.</p>
+<hr>
 <h2 id="i-arduino">I, Arduino</h2>
 <h3 id="about">About</h3>
 <p><strong>Arduino Day</strong> is a worldwide birthday celebration of Arduino – organized directly by the community, or by the Arduino team. It brings people together to share their experiences and learn more about the open-source platform.</p>
@@ -162,8 +180,9 @@ Also, I would aslo thank my team - Jasmeet Singh and Manav Sethi as if it was no
 Regardless of the technical skills like <strong>ROS</strong> and Different other stack EYRC has also taught us a lot about managment skills as how to plan before executing, manage multiple projects at the same time and the most important - <strong>NEVER GIVE UP</strong>!
 We were amazed to see the great robotics projects going on in industries and universities and the amazing robotics culture in different collages accross the nation.
 I would recommend every Robotics enthusiast to at least participate once as it not only teaches you about robotics but prepares you for the real world.</p>
+<hr>
 <h2 id="2020-highlights">2020 Highlights</h2>
-<p>For 2020 and before posts check out <strong>here</strong>.</p>
+<p>For 2020 and before posts check out <strong>Here</strong>.</p>
 
                                 </article>
                             

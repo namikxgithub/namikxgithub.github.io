@@ -23,7 +23,8 @@ So, My name is Naman Malik, a Part-time electronics student and a Full-time Make
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/projects/</guid>
-      <description>Comming Soon</description>
+      <description>Sorry, The projects menu is under maintanance&amp;hellip;.
+Check out What&amp;rsquo;s New for updates.</description>
     </item>
     
     <item>
@@ -32,8 +33,8 @@ So, My name is Naman Malik, a Part-time electronics student and a Full-time Make
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/whats_new/</guid>
-      <description>6-DOF Servo Arm I, Arduino A Maker&amp;rsquo;s Coffee Table Eyantra Finals 2020 Highlights  I, Arduino About Arduino Day is a worldwide birthday celebration of Arduino – organized directly by the community, or by the Arduino team. It brings people together to share their experiences and learn more about the open-source platform.
-So this year, I coordinated with HatchnHack organized the I, Arduino event to acknowledge the open-source Arduino community who encouraged the people to make countless exciting projects over the years.</description>
+      <description>I, Arduino A Maker&amp;rsquo;s Coffee Table Eyantra Finals 6-DOF Servo Arm HNH Robo Kit EYRC-BOT in Action 2020 Highlights  6-DOF Servo Arm Alright, We have got our Servo Arm fixed.
+Last time we used only arduino to control the arm for pre-loaded movement. Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a Pose provided by us.</description>
     </item>
     
   </channel>
