@@ -82,7 +82,7 @@
 <!-- raw HTML omitted -->
 <p><img src="/image.jpg#floatright" alt=""></p>
 <p>Well here is some stuff you might wanna know about me&hellip;</p>
-<p>So, My name is Naman Malik, a <em>Part-time</em> electronics student and a <em>Full-time</em> <strong>Maker</strong>.  <br>
+<p>So, My name is Naman Malik, a <em>Part-time</em> electronics student and a <em>Full-time</em> <strong>Innovator</strong>.  <br>
 Though I am an <em>Electronics student</em> from profession but a <strong>Robotics Enthusiast</strong> by heart.
 I have my Keen interests in <strong>Robotics, ROS, IOT</strong> and developing a taste in <strong>Computer Vision</strong>.  <br>
 Driven by the idea of <strong>Project-based Learing</strong>, Eager to tinker with and learn about new <em>Tech</em>
@@ -120,15 +120,19 @@ and always ready to get my hand dirty on new projects - be it <em>Hardware</em> 
 </ul>
 <h2 id="6-dof-servo-arm">6 DOF Servo Arm</h2>
 <p>Alright, We have got our Servo Arm fixed.</p>
+<p><img src="/6dof_arm.jpg" alt=""></p>
 <p>Last time we used only arduino to control the arm for pre-loaded movement.
-Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment and we would have create a arm skeleton to visualize it in the Rviz.  <br>
-The main issue is with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA to 1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.<br>
-Well its time to go all &ldquo;<strong>Tony Stark Mode</strong>&rdquo; and maybe in future we can add this to mobile base and it would a full fleged robot. Stay tuned for more updates.</p>
+Well, This time I am thinking of intergrating <strong>ROS</strong> with it and use <strong>Moveit!</strong> to plan a path for the end effector to Go to a certain Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment, implement inverse kinematics and we would have create a arm skeleton to visualize it in the Rviz.  <br>
+Also, there is a major issue with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA-1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.<br>
+Well its time to go all &ldquo;<strong>Tony Stark Mode</strong>&rdquo; and maybe in future we can add this to mobile base. Stay tuned for more updates.</p>
 <hr>
 <h2 id="hnh-robo-kit">HNH Robo Kit</h2>
-<p>After making numerous Arduino Bots, I have realized that to even make simple bots a considrable amount of time is consumed in tasks like making a chassis from scratch, connect to actuators, motor drivers, sernsors etc. and wire management which can be quite frustrating and difficult a begginer.  <br>
-So I taked to the founder of HatchNHack makerspace and we decided to collaborate to develop an Arduino based robotic kit so that robotics will not only be restriced to Pros.</p>
+<p>After fiddling around with numerous Arduino Bots and teaching my juniors who are setting their first step in this world, I have realized that to even to make simple bot a considrable amount of time is consumed in tasks like making a chassis from scratch, connect to actuators, motor drivers, sernsors etc. and wire management which can be quite frustrating and difficult a begginer as even if there goes slight of mistake, it becomes real hard to identify the issue which can be quite demoralizing.
+So an idea came to mind, why not make not make a pre-built system where newbies dont have to worry about such millennial stuff and it does not put a halt to their imagination.
+Therefore I talked to the founders of hatchnhack and they were on board with it.
+The idea is to provide make it as moduler as possible so that even a begginer can use it and a pro can innove. The brain will constitute of a main controller with all the necessary equipment on-board and additional connectors to add other stuff like sensors, acutuators etc.</p>
 <h3 id="scematic-sneak-peak">Scematic (Sneak Peak)</h3>
+<p><img src="/robo_kit.jpg" alt=""></p>
 <p>Well this is just a demo. There is stil a lot of work to be done.
 The project scematic will be open to all so that people can innovate as their will.
 The idea is to provide people with a main controller with all the necessary equipment on-board and additional connectors to add other stuff line sensors, acutuators etc.</p>
