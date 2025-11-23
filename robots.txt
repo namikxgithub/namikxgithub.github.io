@@ -1,1 +1,3 @@
 User-agent: *
+Allow: /
+Sitemap: https://namikxgithub.github.io/sitemap.xml

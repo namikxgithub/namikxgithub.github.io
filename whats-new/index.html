@@ -1,0 +1,1160 @@
+<!doctype html>
+<html
+  lang="en-us"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="auto"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8">
+  
+    <meta http-equiv="content-language" content="en-us">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color">
+
+  
+  
+    <title>What&#39;s New &middot; Naman Malik</title>
+    <meta name="title" content="What&#39;s New &middot; Naman Malik">
+  
+
+  
+  
+    <meta name="description" content="Robotics engineer focused on ROS/ROS2, autonomy, perception and field-ready builds.">
+  
+  
+  
+  
+  <link rel="canonical" href="https://namikxgithub.github.io/whats-new/">
+  
+
+  
+  
+  
+
+  
+  <meta property="og:url" content="https://namikxgithub.github.io/whats-new/">
+  <meta property="og:site_name" content="Naman Malik">
+  <meta property="og:title" content="What&#39;s New">
+  <meta property="og:description" content="I, Arduino A Maker’s Coffee Table Eyantra Finals 6 DOF Servo Arm HNH Robo Kit EYRC-BOT in Action 2020 Highlights 6 DOF Servo Arm # Alright, We have got our Servo Arm fixed.
+Last time we used only arduino to control the arm for pre-loaded movement. Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a certain Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment, implement inverse kinematics and we would have create a arm skeleton to visualize it in the Rviz. Also, there is a major issue with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA-1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.
+Well its time to go all “Tony Stark Mode” and maybe in future we can add this to mobile base. Stay tuned for more updates.">
+  <meta property="og:locale" content="en_us">
+  <meta property="og:type" content="article">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="What&#39;s New">
+  <meta name="twitter:description" content="I, Arduino A Maker’s Coffee Table Eyantra Finals 6 DOF Servo Arm HNH Robo Kit EYRC-BOT in Action 2020 Highlights 6 DOF Servo Arm # Alright, We have got our Servo Arm fixed.
+Last time we used only arduino to control the arm for pre-loaded movement. Well, This time I am thinking of intergrating ROS with it and use Moveit! to plan a path for the end effector to Go to a certain Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment, implement inverse kinematics and we would have create a arm skeleton to visualize it in the Rviz. Also, there is a major issue with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA-1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.
+Well its time to go all “Tony Stark Mode” and maybe in future we can add this to mobile base. Stay tuned for more updates.">
+
+  
+  
+  
+  
+    
+      
+    
+  
+    
+      
+    
+  
+    
+      
+    
+  
+  
+    
+  
+
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.142b3712f190133e5550fca4b95dbea5e59e2d0e7f324f2c3cde855857f8e28adf140e354d0fd5c308dec0b6b0f5b63c8c765b750ed3212bb1fced833ab36b5b.css"
+    integrity="sha512-FCs3EvGQEz5VUPykuV2&#43;peWeLQ5/Mk8sPN6FWFf44orfFA41TQ/VwwjewLaw9bY8jHZbdQ7TISux/O2DOrNrWw==">
+
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.6f41174b3a05b680820fe08cadbfa5fb7a7ca347b76a0955cdc68b9d8aca1ce24f0547e138cea33bcc7904d551a90afcb1cc7f2d9fe8557075d501419046c08c.js"
+    integrity="sha512-b0EXSzoFtoCCD&#43;CMrb&#43;l&#43;3p8o0e3aglVzcaLnYrKHOJPBUfhOM6jO8x5BNVRqQr8scx/LZ/oVXB11QFBkEbAjA=="></script>
+  
+  
+  
+  
+  
+  
+    
+    <script src="/lib/zoom/zoom.min.umd.a527109b68c082a70f3697716dd72a9d5aa8b545cf800cecbbc7399f2ca6f6e0ce3e431f2062b48bbfa47c9ea42822714060bef309be073f49b9c0e30d318d7b.js" integrity="sha512-pScQm2jAgqcPNpdxbdcqnVqotUXPgAzsu8c5nyym9uDOPkMfIGK0i7&#43;kfJ6kKCJxQGC&#43;8wm&#43;Bz9JucDjDTGNew=="></script>
+  
+
+  
+  
+  
+    
+  
+  
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.9df4fc14d50efcc9aa4cfc2b6f348e365f421f5ad491278f8f48c0360cf2f93f08882fda6da162d7ace8e5add57c2df4ac46bd3861306b1d4c452cd31f448d64.js"
+      integrity="sha512-nfT8FNUO/MmqTPwrbzSONl9CH1rUkSePj0jANgzy&#43;T8IiC/abaFi16zo5a3VfC30rEa9OGEwax1MRSzTH0SNZA=="
+      data-copy="Copy"
+      data-copied="Copied"></script>
+  
+
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.b0dca576e87d7eaa5850ae4e61759c065786cdb6489d68fcc82240539eebd5da522bdb4fda085ffd245808c8fe2acb2516408eb774ef26b5f6015fc6737c0ea8.js" integrity="sha512-sNylduh9fqpYUK5OYXWcBleGzbZInWj8yCJAU57r1dpSK9tP2ghf/SRYCMj&#43;KsslFkCOt3TvJrX2AV/Gc3wOqA=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+
+
+
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+  
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Home",
+    "name": "What\u0027s New",
+    "headline": "What\u0027s New",
+    
+    "abstract": "\u003cul\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#i-arduino\u0022\u003eI, Arduino\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#a-makers-coffee-table\u0022\u003eA Maker\u0026rsquo;s Coffee Table\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#eyantra-finals\u0022\u003eEyantra Finals\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#6-dof-servo-arm\u0022\u003e6 DOF Servo Arm\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#hnh-robo-kit\u0022\u003eHNH Robo Kit\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#eyrc-bot-in-action\u0022\u003eEYRC-BOT in Action\u003c\/a\u003e\u003c\/li\u003e\n\u003cli\u003e\u003ca\n  href=\u0022#2020-highlights\u0022\u003e2020 Highlights\u003c\/a\u003e\u003c\/li\u003e\n\u003c\/ul\u003e\n\n\u003ch2 class=\u0022relative group\u0022\u003e6 DOF Servo Arm\n    \u003cdiv id=\u00226-dof-servo-arm\u0022 class=\u0022anchor\u0022\u003e\u003c\/div\u003e\n    \n    \u003cspan\n        class=\u0022absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none\u0022\u003e\n        \u003ca class=\u0022text-primary-300 dark:text-neutral-700 !no-underline\u0022 href=\u0022#6-dof-servo-arm\u0022 aria-label=\u0022Anchor\u0022\u003e#\u003c\/a\u003e\n    \u003c\/span\u003e\n    \n\u003c\/h2\u003e\n\u003cp\u003eAlright, We have got our Servo Arm fixed.\u003c\/p\u003e\n\u003cp\u003e\u003cfigure\u003e\u003cimg\n    class=\u0022my-0 rounded-md\u0022\n    loading=\u0022lazy\u0022\n    decoding=\u0022async\u0022\n    fetchpriority=\u0022low\u0022\n    alt=\u0022\u0022\n    src=\u0022\/6dof_arm.jpg\u0022\n    \u003e\u003c\/figure\u003e\n\u003c\/p\u003e\n\u003cp\u003eLast time we used only arduino to control the arm for pre-loaded movement.\nWell, This time I am thinking of intergrating \u003cstrong\u003eROS\u003c\/strong\u003e with it and use \u003cstrong\u003eMoveit!\u003c\/strong\u003e to plan a path for the end effector to Go to a certain Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment, implement inverse kinematics and we would have create a arm skeleton to visualize it in the Rviz.  \u003cbr\u003e\nAlso, there is a major issue with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA-1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.\u003cbr\u003e\nWell its time to go all \u0026ldquo;\u003cstrong\u003eTony Stark Mode\u003c\/strong\u003e\u0026rdquo; and maybe in future we can add this to mobile base. Stay tuned for more updates.\u003c\/p\u003e",
+    "inLanguage": "en-us",
+    "url" : "https:\/\/namikxgithub.github.io\/whats-new\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    
+    
+    
+    
+    
+    
+    
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1192"
+  }]
+  </script>
+
+
+
+  
+  
+    
+
+
+
+
+  
+
+  
+  
+    <style>
+:root {
+  --scroll-blur: 0px;
+  --global-bg: url("/lab.jpg");
+}
+body {
+  background: none;
+}
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background:
+    linear-gradient(135deg, rgba(8, 12, 22, 0.78), rgba(18, 34, 68, 0.5)),
+    var(--global-bg) center/cover no-repeat fixed;
+  filter: blur(var(--scroll-blur, 0px));
+  z-index: -1;
+}
+.main-menu .logo {
+  max-height: 6rem;
+  max-width: 6rem;
+}
+.main-menu a.text-base {
+  font-size: 1.3rem !important;
+  font-weight: 800;
+}
+.main-menu nav a {
+  font-size: 1.25rem !important;
+  font-weight: 800;
+}
+</style>
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <body class="flex flex-col h-screen m-auto leading-7 max-w-7xl px-6 sm:px-14 md:px-24 lg:px-32 text-lg bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content">
+        <span class="font-bold text-primary-600 pe-2 dark:text-primary-400">&darr;</span>
+        Skip to main content
+      </a>
+    </div>
+    
+    
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div
+  class="main-menu flex items-center justify-between py-6 md:justify-start gap-x-3 pt-[2px] pr-2 md:pr-4 pb-[3px] pl-0">
+  
+  
+    
+    
+      <div>
+        <a href="/" class="flex">
+          <span class="sr-only">Naman Malik</span>
+          
+            <img
+              src="/logo-removebg-preview.png"
+              width="250"
+              height="250"
+              class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom"
+              alt="">
+          
+        </a>
+      </div>
+    
+
+  <div class="flex flex-1 items-center justify-between">
+    <nav class="flex space-x-3">
+      
+        <a href="/" class="text-base font-medium">
+          Naman Malik
+        </a>
+      
+    </nav>
+    
+  <nav class="hidden md:flex items-center gap-x-5 md:ml-12 h-12">
+    
+      
+        
+  <a
+  href="/portfolio/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Portfolio"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Portfolio
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/projects/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Projects &amp; Research"
+  title="Projects">
+  
+  
+    <p class="text-base font-medium">
+      Projects &amp; Research
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/#talks-blogs"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Talks &amp; Blogs"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Talks &amp; Blogs
+    </p>
+  
+</a>
+
+
+
+      
+        
+  <a
+  href="/contact/"
+  
+  class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+  aria-label="Contact"
+  title="">
+  
+  
+    <p class="text-base font-medium">
+      Contact
+    </p>
+  
+</a>
+
+
+
+      
+    
+
+    
+
+    
+
+    
+      <button
+        id="search-button"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <div class=" flex items-center">
+        <button
+          id="appearance-switcher"
+          aria-label="Dark mode switcher"
+          type="button"
+          class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+          <div class="flex items-center justify-center dark:hidden">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+          </div>
+          <div class="items-center justify-center hidden dark:flex">
+            <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+          </div>
+        </button>
+      </div>
+    
+  </nav>
+
+    
+  <div class="flex md:hidden items-center gap-x-5 md:ml-12 h-12">
+    <span></span>
+
+    
+
+    
+
+    
+      <button
+        id="search-button-mobile"
+        aria-label="Search"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+        title="Search (/)">
+        <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+      </button>
+    
+
+    
+      <button
+        id="appearance-switcher-mobile"
+        aria-label="Dark mode switcher"
+        type="button"
+        class="text-base hover:text-primary-600 dark:hover:text-primary-400 me-1">
+        <div class="flex items-center justify-center dark:hidden">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+        </div>
+        <div class="items-center justify-center hidden dark:flex">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+        </div>
+      </button>
+    
+  </div>
+
+  </div>
+  
+  <div class="-my-2 md:hidden">
+    <div id="menu-button" class="block">
+      
+        <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+          <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+</span>
+        </div>
+        <div
+          id="menu-wrapper"
+          class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50 pt-[5px]">
+          <ul
+            class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none text-end max-w-7xl">
+            <li id="menu-close-button">
+              <span
+                class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+                <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+              </span>
+            </li>
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/portfolio/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Portfolio"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Portfolio
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/projects/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Projects &amp; Research"
+    title="Projects">
+    
+    
+      <p class="text-bg font-bg">
+        Projects &amp; Research
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/#talks-blogs"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Talks &amp; Blogs"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Talks &amp; Blogs
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+              
+  <li class="mt-1">
+  <a
+    href="/contact/"
+    
+    class="flex items-center hover:text-primary-600 dark:hover:text-primary-400"
+    aria-label="Contact"
+    title="">
+    
+    
+      <p class="text-bg font-bg">
+        Contact
+      </p>
+    
+  </a>
+</li>
+
+
+
+            
+
+          </ul>
+          
+        </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
+    
+    <div class="relative flex flex-col grow">
+      <main id="main-content" class="grow">
+        
+  
+  <article>
+    
+    
+
+    
+    <header id="single_header" class="mt-5 max-w-prose">
+      
+      <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        What's New
+      </h1>
+      <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+        
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+  
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+
+    
+    
+  </div>
+
+  
+
+  
+  
+
+  
+  
+
+
+
+      </div>
+      
+        
+  
+  
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+      
+    </header>
+
+    
+    <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+      
+      
+      
+      
+      
+
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+
+        <div class="article-content max-w-prose mb-20">
+          <ul>
+<li><a
+  href="#i-arduino">I, Arduino</a></li>
+<li><a
+  href="#a-makers-coffee-table">A Maker&rsquo;s Coffee Table</a></li>
+<li><a
+  href="#eyantra-finals">Eyantra Finals</a></li>
+<li><a
+  href="#6-dof-servo-arm">6 DOF Servo Arm</a></li>
+<li><a
+  href="#hnh-robo-kit">HNH Robo Kit</a></li>
+<li><a
+  href="#eyrc-bot-in-action">EYRC-BOT in Action</a></li>
+<li><a
+  href="#2020-highlights">2020 Highlights</a></li>
+</ul>
+
+<h2 class="relative group">6 DOF Servo Arm
+    <div id="6-dof-servo-arm" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#6-dof-servo-arm" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Alright, We have got our Servo Arm fixed.</p>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="/6dof_arm.jpg"
+    ></figure>
+</p>
+<p>Last time we used only arduino to control the arm for pre-loaded movement.
+Well, This time I am thinking of intergrating <strong>ROS</strong> with it and use <strong>Moveit!</strong> to plan a path for the end effector to Go to a certain Pose provided by us. It is going to be a bit tricky as I would have to do some serious wire manegment, implement inverse kinematics and we would have create a arm skeleton to visualize it in the Rviz.  <br>
+Also, there is a major issue with the power manegment system as till now I was using L298N motor driver to supply current to servos and arduino which is restricted to 2A of current and a servo uses 500mA-1A of current a the stalling current of a servo is almost 2A. So even if 1 servo takes too much load the Arm will not able to take its own weight and will fall. To encounter that we will have to get a bigger power supply which can be troublesome in these pandemic situations.<br>
+Well its time to go all &ldquo;<strong>Tony Stark Mode</strong>&rdquo; and maybe in future we can add this to mobile base. Stay tuned for more updates.</p>
+<hr>
+
+<h2 class="relative group">I, Arduino
+    <div id="i-arduino" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#i-arduino" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">About
+    <div id="about" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#about" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><strong>Arduino Day</strong> is a worldwide birthday celebration of Arduino – organized directly by the community, or by the Arduino team. It brings people together to share their experiences and learn more about the open-source platform.</p>
+<p>So this year, I coordinated with <strong>HatchnHack</strong> organized the <strong>I, Arduino</strong> event to acknowledge the open-source Arduino community who encouraged the people to make countless exciting projects over the years.</p>
+
+<h3 class="relative group">Highlights
+    <div id="highlights" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#highlights" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>Finnaly more than one of my project at the same place    :D
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/SkYHRjCXnwE?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+</p>
+<p>Many makers joined both online and offine to celebrate our beloved arduino&rsquo;s B&rsquo;day. Many students from High School, Collages and Universities came together and participated in various competitions, talks and discussions with great enthusiasm
+and showcased their arduino projects.</p>
+<hr>
+
+<h2 class="relative group">HNH Robo Kit
+    <div id="hnh-robo-kit" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#hnh-robo-kit" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>After fiddling around with numerous Arduino Bots and teaching my juniors who are setting their first step into this world, I have realized that to even to make simple bot a considrable amount of time is consumed in tasks like making a chassis from scratch, connect to actuators, motor drivers, sernsors etc. and wire management which can be quite frustrating and difficult a begginer as even if there goes slight of mistake, it becomes real hard to identify the issue which can be quite demoralizing.  <br>
+So an idea came to mind, why not make not make a pre-built system where newbies dont have to worry about such menial stuff and it does not put a halt to their imagination.
+Therefore I talked to the founders at <a
+  href="https://hatchnhack.com"
+    target="_blank"
+  ><strong>Hatchnhack</strong></a> and they were on board with it.
+The idea is to provide make it as moduler as possible so that even a begginer can use it and a pro can innove. The brain will constitute of a main controller with all the necessary equipment on-board and additional connectors to add other stuff like sensors, acutuators etc.</p>
+
+<h3 class="relative group">Scematic (Sneak Peak)
+    <div id="scematic-sneak-peak" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#scematic-sneak-peak" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p><figure><img
+    class="my-0 rounded-md"
+    loading="lazy"
+    decoding="async"
+    fetchpriority="low"
+    alt=""
+    src="/robo_kit.jpg"
+    ></figure>
+</p>
+<p>Well this is just a demo I created. There is stil a lot of work to be done.
+The project scematic will be open to all so that people can innovate as their will.
+The idea is to provide people with a main controller with all the necessary equipment on-board and additional connectors to add other stuff line sensors, acutuators etc.</p>
+<hr>
+
+<h2 class="relative group">A Maker&rsquo;s Coffee Table
+    <div id="a-makers-coffee-table" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#a-makers-coffee-table" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+
+<h3 class="relative group">Story behind it
+    <div id="story-behind-it" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#story-behind-it" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<p>So, <strong>Arduino day</strong> is on it&rsquo;s way, and I was thinking that an arduino based attraction is needed.
+Well, I have seen people making these <strong>LED matrix</strong> and doing cool stuff with it like -  <br>
+<strong>Display simple images and pattarns,  <br>
+Audio Visualizer,     <br>
+Playing 8-bit games etc.</strong>  <br>
+So, a thought came to mind, why not make it into a table so it can be people attraction as well.<br>
+Alright, we have got a project but how to proceed with it as multiplexing is out the question as it would be real mess and a huge amount pins would be needed.
+Well, Here is where <strong>Neopixel LED&rsquo;s</strong> and <strong>Fast LED library</strong> came the rescue. Also a huge thanks to HATCHNHACK and Jasmeet Sigh to help bringing this to life.
+The amazing thing about Neopixel LED is that we only need to connect VCC, Ground and data pin to the controller and multiple RGB LED&rsquo;s can be controlled with only one data pin which can be programmed using the Fast Led library using simple functions.</p>
+
+<h3 class="relative group">Sneak Peek
+    <div id="sneak-peek" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#sneak-peek" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/kWWGz05eE1c?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<hr>
+
+<h2 class="relative group">Eyantra Finals
+    <div id="eyantra-finals" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#eyantra-finals" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>The <strong>Eyantra Robotics competition</strong> has finally came to an end.</p>
+
+<h3 class="relative group">Checkout the full finals (timestamp 47:30 - 1:15:00)
+    <div id="checkout-the-full-finals-timestamp-4730---11500" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#checkout-the-full-finals-timestamp-4730---11500" aria-label="Anchor">#</a>
+    </span>
+    
+</h3>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/XF7nTVlUe18?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>It was an amazing journey of 6 and a half moths - Developing Stacks, Fixing infinite bugs and encountering randon errors leading to sleepless nights and endless calls figuring out the ultimate question &ldquo;WHY?????&rdquo;  <br>
+Well, it was all for a greater good as the struggle lead us to the finals.
+Also, I would aslo thank my team - Jasmeet Singh and Manav Sethi as if it was not out team effort, it would have been a nighmare.
+Regardless of the technical skills like <strong>ROS</strong> and Different other stack EYRC has also taught us a lot about managment skills as how to plan before executing, manage multiple projects at the same time and the most important - <strong>NEVER GIVE UP</strong>!
+We were amazed to see the great robotics projects going on in industries and universities and the amazing robotics culture in different collages accross the nation.
+I would recommend every Robotics enthusiast to at least participate once as it not only teaches you about robotics but prepares you for the real world.</p>
+<hr>
+
+<h2 class="relative group">EYRC-BOT in Action
+    <div id="eyrc-bot-in-action" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#eyrc-bot-in-action" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Alright then, the ebot simulation is finally finished and ready to be tested out.</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+      <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/0ljyceDQHuQ?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
+    </div>
+
+<p>Well, the aim of the simulation was to navigate to diffrent rooms throught the EYRC lab world in order to detect and pick up the disired objects and drop them into their specific drop boxes.
+To achive that goal our team created multiple stack in order to make a robust and steamline flow of work.</p>
+<p><strong>Navigation, Arm_Manipulation, Object_Detection, Task_Manager</strong>.</p>
+<p><strong>Navigation</strong></p>
+<ul>
+<li>Used G-mapping  Package in ROS, creating a map with the help of LIDAR sensor for a gazebo environment</li>
+<li>Tuned AMCL package to localize and navigate the bot through the arena</li>
+<li>Created custom package using rospy and actionlib python module to create a node to send sequential waypoints to ROS Navigation Stack  for Robot navigation</li>
+</ul>
+<p><a
+  href="https://www.youtube.com/watch?v=Pt7ND2ajvbw&amp;t=334s"
+    target="_blank"
+  ><em>ROS Navigation Video</em></a></p>
+<p><strong>Arm_Manipulation</strong></p>
+<ul>
+<li>Implemented ROS Manipulation for picking and placing the objects in their respective boxes using Moveit! to control a UR5 arm in the gazebo
+<strong>Object_Detection</strong></li>
+<li>Used Find_object_2d for perception and localization of objects in the world with help of an Intel Realsense camera.</li>
+</ul>
+<p><a
+  href="https://www.youtube.com/watch?v=6g3N7GMdvjY&amp;t=4s"
+    target="_blank"
+  ><em>UR5 Arm manipulation Video</em></a></p>
+<p><strong>Task_Manager</strong></p>
+<ul>
+<li>Created custom package using rospy and actionlib python module to create a node to publish sequential tasks for completion.</li>
+</ul>
+<hr>
+
+<h2 class="relative group">2020 Highlights
+    <div id="2020-highlights" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none">
+        <a class="text-primary-300 dark:text-neutral-700 !no-underline" href="#2020-highlights" aria-label="Anchor">#</a>
+    </span>
+    
+</h2>
+<p>Checkout more amazing posts <strong>Here</strong>.</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+
+        
+
+      </div>
+
+      
+      
+        
+        
+          
+          
+        
+        
+        
+        <script
+          type="text/javascript"
+          src="/js/page.min.54b6f4371722649edbe871e431d8670d670878c22be8f36e229fe53cc9b786fe25a834def5e6de621f7a3e37b72bc8cd73839aa5ed907ed6cbd45cd3e1b0fa20.js"
+          integrity="sha512-VLb0NxciZJ7b6HHkMdhnDWcIeMIr6PNuIp/lPMm3hv4lqDTe9ebeYh96Pje3K8jNc4Oape2QftbL1FzT4bD6IA=="
+          data-oid="views_What&#39;s_new.md"
+          data-oid-likes="likes_What&#39;s_new.md"></script>
+      
+    </section>
+
+    
+    <footer class="pt-8 max-w-prose print:hidden">
+      
+  
+    
+    
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600">
+      <div class="flex justify-between pt-3">
+        <span class="flex flex-col">
+          
+        </span>
+        <span class="flex flex-col items-end">
+          
+            <a
+              class="flex text-right text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+              href="/projects/">
+              <span class="leading-6">
+                Projects&ensp;<span class="inline-block rtl:rotate-180">&rarr;</span>
+              </span>
+            </a>
+            
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+      
+    </footer>
+  </article>
+
+        
+
+
+  
+
+
+
+
+
+
+<div
+  id="scroll-to-top"
+  class="fixed bottom-6 end-6 z-50 transform translate-y-4 opacity-0 duration-200">
+  <a
+    href="#the-top"
+    class="pointer-events-auto flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top"
+    title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+
+      </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+  
+  <div class="flex items-center justify-between">
+    
+    
+      <p class="text-sm text-neutral-500 dark:text-neutral-400">
+          &copy;
+          2025
+          
+      </p>
+    
+
+    
+    
+      <p class="text-xs text-neutral-500 dark:text-neutral-400">
+        
+        
+        Powered by <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+          href="https://blowfish.page/" target="_blank" rel="noopener noreferrer">Blowfish</a>
+      </p>
+    
+  </div>
+  
+    <script>
+      mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+        margin: 24,
+        background: "rgba(0,0,0,0.5)",
+        scrollOffset: 0,
+      });
+    </script>
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/process.min.ee03488f19c93c2efb199e2e3014ea5f3cb2ce7d45154adb3399a158cac27ca52831db249ede5bb602700ef87eb02434139de0858af1818ab0fb4182472204a4.js"
+    integrity="sha512-7gNIjxnJPC77GZ4uMBTqXzyyzn1FFUrbM5mhWMrCfKUoMdsknt5btgJwDvh&#43;sCQ0E53ghYrxgYqw&#43;0GCRyIEpA=="></script>
+  
+  
+    <script>
+(() => {
+  const updateBlur = () => {
+    const b = Math.min(window.scrollY / 80, 14);
+    document.documentElement.style.setProperty("--scroll-blur", `${b}px`);
+  };
+  updateBlur();
+  window.addEventListener("scroll", updateBlur, { passive: true });
+})();
+</script>
+
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh] z-500"
+  data-url="https://namikxgithub.github.io/">
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800">
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          <span class="relative block icon"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0">
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)">
+        <span class="relative block icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+  
+</html>
