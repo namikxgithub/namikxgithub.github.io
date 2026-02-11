@@ -40,7 +40,7 @@ enableRobotsTXT = true
 
   [[menu.main]]
     name = "Projects & Research"
-    pageRef = "/Projects"
+    pageRef = "/projects"
     weight = 3
 
   [[menu.main]]

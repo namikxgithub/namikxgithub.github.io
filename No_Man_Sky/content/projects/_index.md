@@ -9,7 +9,6 @@ showAuthor: false
 showReadingTime: false
 showEdit: false
 layoutBackgroundHeaderSpace: false
-cardViewScreenWidth: false
 ---
 
 {{< lead >}}
