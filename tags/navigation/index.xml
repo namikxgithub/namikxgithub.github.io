@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Navigation on Naman Malik</title>
+    <link>https://namikxgithub.github.io/tags/navigation/</link>
+    <description>Recent content in Navigation on Naman Malik</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2026 </copyright>
+    <atom:link href="https://namikxgithub.github.io/tags/navigation/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MR. Robot — ModulaR Robot</title>
+      <link>https://namikxgithub.github.io/projects/mr-robot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/projects/mr-robot/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Overview
+    &lt;div id=&#34;overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;a
+  href=&#34;https://github.com/atom-robotics-lab/MR-Robot&#34;
+    target=&#34;_blank&#34;
+  &gt;MR. Robot&lt;/a&gt; is a modular autonomous robot built at A.T.O.M Robotics Lab, capable of mapping, navigation, transportation, and sanitation tasks. Its modular design allows swapping payloads and sensor configurations for different deployment scenarios.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Key Features
+    &lt;div id=&#34;key-features&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#key-features&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous Navigation&lt;/strong&gt; — SLAM-based mapping with move_base and AMCL for localization and path planning&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Modular Design&lt;/strong&gt; — Swappable payload modules for transportation, sanitation, and custom applications&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multi-sensor Support&lt;/strong&gt; — Configurable launch with camera, LiDAR, and Kinect depth camera&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;3D Mapping&lt;/strong&gt; — Octomapping support via the point-cloud navigation branch for volumetric environment representation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simulation-first&lt;/strong&gt; — Full Gazebo simulation with custom worlds for development and testing before hardware deployment&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Tech Stack
+    &lt;div id=&#34;tech-stack&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#tech-stack&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;ROS Noetic&lt;/code&gt; · &lt;code&gt;Gazebo&lt;/code&gt; · &lt;code&gt;OpenCV&lt;/code&gt; · &lt;code&gt;Raspberry Pi&lt;/code&gt; · &lt;code&gt;ESP32&lt;/code&gt; · &lt;code&gt;Python&lt;/code&gt; · &lt;code&gt;Blender&lt;/code&gt;&lt;/p&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>Sahayak Bot — EYRC 2021</title>
+      <link>https://namikxgithub.github.io/projects/sahayak-bot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/projects/sahayak-bot/</guid>
+      <description>&lt;h2 class=&#34;relative group&#34;&gt;Overview
+    &lt;div id=&#34;overview&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#overview&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;Built an autonomous mobile manipulator for the &lt;strong&gt;e-Yantra Robotics Competition (EYRC) 2021&lt;/strong&gt; organized by IIT Bombay. The robot autonomously navigates an arena, detects objects using computer vision, and performs pick-and-place operations to complete task objectives.&lt;/p&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Key Features
+    &lt;div id=&#34;key-features&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#key-features&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Autonomous Navigation&lt;/strong&gt; — SLAM and path planning for arena traversal with dynamic obstacle handling&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Object Detection &amp;amp; Manipulation&lt;/strong&gt; — Vision-based detection and robotic arm pick-and-place for task completion&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;End-to-end Autonomy&lt;/strong&gt; — Fully autonomous pipeline from perception to planning to execution without human intervention&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Competition Tested&lt;/strong&gt; — Iterated through multiple rounds of increasingly complex arena challenges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 class=&#34;relative group&#34;&gt;Achievement
+    &lt;div id=&#34;achievement&#34; class=&#34;anchor&#34;&gt;&lt;/div&gt;
+    
+    &lt;span
+        class=&#34;absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100 select-none&#34;&gt;
+        &lt;a class=&#34;text-primary-300 dark:text-neutral-700 !no-underline&#34; href=&#34;#achievement&#34; aria-label=&#34;Anchor&#34;&gt;#&lt;/a&gt;
+    &lt;/span&gt;
+    
+&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;6th Position&lt;/strong&gt; among &lt;strong&gt;500+ teams&lt;/strong&gt; nationwide&lt;/p&gt;</description>
+      
+    </item>
+    
+  </channel>
+</rss>

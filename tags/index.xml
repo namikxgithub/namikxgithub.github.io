@@ -6,8 +6,28 @@
     <description>Recent content in Tags on Naman Malik</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2025 </copyright>
+    <copyright>© 2026 </copyright>
     <atom:link href="https://namikxgithub.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Agriculture</title>
+      <link>https://namikxgithub.github.io/tags/agriculture/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/agriculture/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AR</title>
+      <link>https://namikxgithub.github.io/tags/ar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/ar/</guid>
+      <description></description>
+      
+    </item>
     
     <item>
       <title>Builds</title>
@@ -15,6 +35,36 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/tags/builds/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Competition</title>
+      <link>https://namikxgithub.github.io/tags/competition/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/competition/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Computer-Vision</title>
+      <link>https://namikxgithub.github.io/tags/computer-vision/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/computer-vision/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gazebo</title>
+      <link>https://namikxgithub.github.io/tags/gazebo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/gazebo/</guid>
       <description></description>
       
     </item>
@@ -30,11 +80,131 @@
     </item>
     
     <item>
+      <title>IIT Bombay</title>
+      <link>https://namikxgithub.github.io/tags/iit-bombay/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/iit-bombay/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Manipulation</title>
+      <link>https://namikxgithub.github.io/tags/manipulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/manipulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Mechanical-Design</title>
+      <link>https://namikxgithub.github.io/tags/mechanical-design/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/mechanical-design/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Modular</title>
+      <link>https://namikxgithub.github.io/tags/modular/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/modular/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>MoveIt</title>
+      <link>https://namikxgithub.github.io/tags/moveit/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/moveit/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Navigation</title>
+      <link>https://namikxgithub.github.io/tags/navigation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/navigation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Projects</title>
       <link>https://namikxgithub.github.io/tags/projects/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://namikxgithub.github.io/tags/projects/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ROS</title>
+      <link>https://namikxgithub.github.io/tags/ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/ros/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>ROS2</title>
+      <link>https://namikxgithub.github.io/tags/ros2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/ros2/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Simulation</title>
+      <link>https://namikxgithub.github.io/tags/simulation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/simulation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Space ROS</title>
+      <link>https://namikxgithub.github.io/tags/space-ros/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/space-ros/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Teleoperation</title>
+      <link>https://namikxgithub.github.io/tags/teleoperation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/teleoperation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>VR</title>
+      <link>https://namikxgithub.github.io/tags/vr/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://namikxgithub.github.io/tags/vr/</guid>
       <description></description>
       
     </item>
