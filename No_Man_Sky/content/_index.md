@@ -63,6 +63,18 @@ description: "Robotics engineer focused on ROS/ROS2, autonomy, perception and fi
   </div>
 </section>
 
+<section class="publications">
+  <header>
+    <h2 class="projects-title">Publications</h2>
+  </header>
+  <div class="pub-card">
+    <h3><a href="https://ieeexplore.ieee.org/document/10983947" target="_blank" rel="noreferrer">Augmented Reality Manipulator</a></h3>
+    <p class="pub-authors">Naman Malik, Vaibhav Nijhawan</p>
+    <p class="pub-venue">2025 International Conference on Innovation in Computing and Engineering (ICE), Greater Noida, India</p>
+    <p class="pub-meta">IEEE Xplore &middot; DOI: 10.1109/ICE63309.2025.10983947</p>
+  </div>
+</section>
+
 <section class="updates">
   <header>
     <p class="eyebrow">Recent Talks & Blogs</p>
@@ -264,6 +276,36 @@ footer {
   display: grid;
   gap: 0.75rem;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+.publications {
+  margin-bottom: 2rem;
+}
+.pub-card {
+  padding: 1.25rem 1.5rem;
+  border-radius: 1rem;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  backdrop-filter: blur(12px);
+}
+.pub-card h3 {
+  margin: 0 0 0.4rem;
+}
+.pub-card h3 a {
+  text-decoration: none;
+}
+.pub-authors {
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+.pub-venue {
+  font-style: italic;
+  margin: 0 0 0.25rem;
+  opacity: 0.85;
+}
+.pub-meta {
+  font-size: 0.85rem;
+  opacity: 0.7;
+  margin: 0;
 }
 </style>
 

@@ -9,6 +9,10 @@ showAuthor: false
 showReadingTime: false
 showEdit: false
 layoutBackgroundHeaderSpace: false
+groupByYear: false
+cardView: true
+orderByWeight: true
+showSummary: true
 ---
 
 {{< lead >}}
