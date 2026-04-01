@@ -11,6 +11,9 @@ summary: "NeoPixel LED matrix coffee table with custom visual modes and audio-re
 weight: 8
 ---
 
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
+<div>
+
 ## Overview
 
 Designed and built an LED matrix coffee table powered by a NeoPixel grid, featuring multiple visual modes, audio-reactive patterns, and custom animations. Built in collaboration with **HatchnHack**.
@@ -22,6 +25,14 @@ Designed and built an LED matrix coffee table powered by a NeoPixel grid, featur
 - **Audio-Reactive** — Real-time FFT-based audio analysis driving LED patterns that respond to music
 - **Custom Animations** — User-configurable animation engine for creating and uploading new patterns
 - **Fast Iterative Tooling** — Rapid prototyping workflow for testing patterns in software before flashing to hardware
+
+</div>
+<div style="position:sticky; top:1rem;">
+<video autoplay loop muted playsinline style="width:100%; border-radius:12px;">
+  <source src="/projects/led-matrix-makers-table/feature.mp4" type="video/mp4">
+</video>
+</div>
+</div>
 
 ## Collaboration
 

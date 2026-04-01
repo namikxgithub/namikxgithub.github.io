@@ -11,6 +11,9 @@ summary: "Embedded developer kit for students to learn robotics, sensors, and ac
 weight: 9
 ---
 
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
+<div>
+
 ## Overview
 
 An embedded robotics developer kit designed to lower the barrier for students getting into robotics. The kit provides a structured learning path from basic sensor interfacing to building autonomous behaviors, with plug-and-play hardware and guided tutorials.
@@ -22,6 +25,12 @@ An embedded robotics developer kit designed to lower the barrier for students ge
 - **Microcontroller Board** — ESP32-based control board with built-in WiFi/BLE for wireless programming and telemetry
 - **Guided Curriculum** — Step-by-step projects progressing from LED blink to autonomous line-following and obstacle avoidance
 - **Expandable** — Standardized connectors allowing students to add custom sensors and actuators as they advance
+
+</div>
+<div style="position:sticky; top:1rem;">
+<img src="feature.jpg" alt="HNH Robo Kit" style="width:100%; border-radius:12px;" />
+</div>
+</div>
 
 ## Tech Stack
 

@@ -11,6 +11,9 @@ summary: "Autonomous mobile manipulator for EYRC 2021, IIT Bombay. Ranked 6th am
 weight: 6
 ---
 
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
+<div>
+
 ## Overview
 
 Built an autonomous mobile manipulator for the **e-Yantra Robotics Competition (EYRC) 2021** organized by IIT Bombay. The robot autonomously navigates an arena, detects objects using computer vision, and performs pick-and-place operations to complete task objectives.
@@ -21,6 +24,12 @@ Built an autonomous mobile manipulator for the **e-Yantra Robotics Competition (
 - **Object Detection & Manipulation** — Vision-based detection and robotic arm pick-and-place for task completion
 - **End-to-end Autonomy** — Fully autonomous pipeline from perception to planning to execution without human intervention
 - **Competition Tested** — Iterated through multiple rounds of increasingly complex arena challenges
+
+</div>
+<div style="position:sticky; top:1rem;">
+<img src="feature.jpg" alt="Sahayak Bot" style="width:100%; border-radius:12px;" />
+</div>
+</div>
 
 ## Achievement
 

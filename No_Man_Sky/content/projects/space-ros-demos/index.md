@@ -11,6 +11,9 @@ summary: "Custom Gazebo plugins and NASA PDS terrain models for realistic Mars a
 weight: 1
 ---
 
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
+<div>
+
 ## Overview
 
 Contributed custom Gazebo plugins and terrain models to the [Space ROS](https://github.com/space-ros/demos/pull/40) project — NASA's open-source ROS2 framework for space robotics. The work introduces realistic environmental effects and planetary terrains derived from actual NASA Planetary Data System elevation data for Mars and Moon exploration simulations.
@@ -22,6 +25,12 @@ Contributed custom Gazebo plugins and terrain models to the [Space ROS](https://
 - **DayLightManager Plugin** — Realistic solar trajectory based on latitude and time-of-day, with dynamic scene color adjustments and lens flare affecting camera sensors
 - **VehicleDust & DroneDust Plugins** — Reactive dust effects triggered by rover and drone motion on planetary surfaces
 - **Curiosity Rover Demos** — Launch files for Curiosity rover scenarios on Mars terrain with full environmental effects
+
+</div>
+<div style="position:sticky; top:1rem;">
+<img src="feature.jpg" alt="Space ROS Demo" style="width:100%; border-radius:12px;" />
+</div>
+</div>
 
 ## Tech Stack
 

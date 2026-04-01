@@ -11,6 +11,9 @@ summary: "Robotic kit for learning ROS and autonomous navigation, built in colla
 weight: 10
 ---
 
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
+<div>
+
 ## Overview
 
 A purpose-built robotic platform designed to teach students ROS and autonomous navigation from the ground up. Developed in collaboration with **ESIP, IIT Bombay**, Prota provides a complete hardware + software learning experience — from writing your first ROS node to running full autonomous navigation stacks.
@@ -22,6 +25,12 @@ A purpose-built robotic platform designed to teach students ROS and autonomous n
 - **Autonomous Navigation** — Nav stack integration with move_base for goal-based autonomous driving
 - **Simulation-first** — Matching Gazebo model so students can develop and test in simulation before deploying on hardware
 - **Structured Learning Path** — Curriculum covering ROS basics, TF transforms, sensor integration, SLAM, and Nav2
+
+</div>
+<div style="position:sticky; top:1rem;">
+<img src="feature.jpg" alt="Prota ROS Bot" style="width:100%; border-radius:12px;" />
+</div>
+</div>
 
 ## Collaboration
 

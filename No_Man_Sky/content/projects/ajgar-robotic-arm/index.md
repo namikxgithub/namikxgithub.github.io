@@ -11,7 +11,7 @@ summary: "6-DOF robotic arm with YOLOv8 vision-guided pick-and-place, MoveIt mot
 weight: 4
 ---
 
-<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start;">
+<div style="display:grid; grid-template-columns:1fr 280px; gap:1.5rem; align-items:start; max-width:none; width:calc(100% + 300px); margin-right:-300px;">
 <div>
 
 ## Overview
